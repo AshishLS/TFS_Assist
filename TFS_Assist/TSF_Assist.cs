@@ -49,6 +49,10 @@ namespace TFS_Assist
                 return;
             }
 #endif
+            // Save Last settings.
+            Properties.Settings.Default.settingServerFolder = tbxTFSDirPath.Text;
+            Properties.Settings.Default.settingLocalFolder = tbxMappedFolder.Text;
+            Properties.Settings.Default.Save();
 
             var batOutFolder = tbxMappedFolder.Text;
 

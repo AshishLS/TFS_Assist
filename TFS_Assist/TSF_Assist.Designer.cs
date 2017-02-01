@@ -42,10 +42,12 @@
             // 
             // tbxTFSDirPath
             // 
+            this.tbxTFSDirPath.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TFS_Assist.Properties.Settings.Default, "settingServerFolder", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.tbxTFSDirPath.Location = new System.Drawing.Point(96, 16);
             this.tbxTFSDirPath.Name = "tbxTFSDirPath";
             this.tbxTFSDirPath.Size = new System.Drawing.Size(341, 20);
             this.tbxTFSDirPath.TabIndex = 0;
+            this.tbxTFSDirPath.Text = global::TFS_Assist.Properties.Settings.Default.settingServerFolder;
             // 
             // lblServerFolder
             // 
@@ -67,10 +69,12 @@
             // 
             // tbxMappedFolder
             // 
+            this.tbxMappedFolder.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::TFS_Assist.Properties.Settings.Default, "settingLocalFolder", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.tbxMappedFolder.Location = new System.Drawing.Point(96, 38);
             this.tbxMappedFolder.Name = "tbxMappedFolder";
             this.tbxMappedFolder.Size = new System.Drawing.Size(287, 20);
             this.tbxMappedFolder.TabIndex = 2;
+            this.tbxMappedFolder.Text = global::TFS_Assist.Properties.Settings.Default.settingLocalFolder;
             // 
             // btnGenerateBat
             // 

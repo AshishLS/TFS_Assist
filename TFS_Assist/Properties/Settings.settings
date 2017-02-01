@@ -1,7 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TFS_Assist.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="settingServerFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$/Fusion360Documentation/FusDocMain/acad/components/global/src</Value>
+    </Setting>
+    <Setting Name="settingLocalFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\fusion\components\global\src</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
